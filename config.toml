@@ -1,0 +1,50 @@
+title = "Eunbin Webb"
+baseURL = "https://dmsqls0809.github.io/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Rollinsford, NH"
+email = "seb9806@gmail.com"
+favicon = "/favicon.ico"
+firstName = "Eunbin"
+lastName = "Song"
+phone = "1-555-555-1234"
+profileImage = "img/eunbin-profile.png"
+showEducation = true
+showExperience = true
+showOpenSource = false
+showProjects = false
+showPublications = false
+showQr = true
+showSkills = true
+
+[[params.handles]]
+link = "https://github.com/dmsqls0809/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://www.linkedin.com/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://stackoverflow.com/"
+name = "Stack-Overflow"
+
+[[params.handles]]
+link = "https://Instagram.com/"
+name = "Instagram"
+
+[[params.handles]]
+link = "https://twitter.com/"
+name = "twitter"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
